@@ -45,3 +45,57 @@ This is a **template repository** that sets the basic code and infrastructure fo
 Licensed under: **MIT license** ([LICENSE](https://github.com/guibranco/apiclient-boilerplate-dotnet/blob/main/LICENSE) or [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT)).
 
 This will be also the **LICENSE** of your API client wrapper / SDK, but you are free to change it for another that suits your needs.
+
+
+
+
+
+
+
+# Modelo padrão do cliente API
+
+💡 🏗️ Um modelo padrão de cliente de API para wrappers de cliente de API .NET
+
+---
+## Sobre
+
+Este é um ** modelo repositório** que define o código básico e a infraestrutura para um repositório/solução em **.NET C#** para criar um **wrapper de cliente API** (também conhecido como **SDK**).
+
+---
+
+## Instruções
+
+> **Aviso**
+>
+> O processo automatizado listado abaixo funciona apenas em ambientes **Windows**. Uma configuração para **Linux/MAC** está em desenvolvimento, mas atualmente não é suportada, portanto, deve ser feita manualmente.
+
+### Processo Automatizado
+
+- Clique no botão verde **USE THIS TEMPLATE**
+- Dê um nome ao seu novo projeto/repositório
+- Clone o repositório recém-criado para a sua máquina
+- Execute o arquivo `initial-setup.bat` ou `initial-setup.ps1` e siga as instruções no prompt/terminal.
+
+### Processo Manual
+
+- Clique no botão verde **USE THIS TEMPLATE**
+- Dê um nome ao seu novo projeto/repositório
+- Clone o repositório recém-criado para a sua máquina
+- Exclua este arquivo (`README.md`) e renomeie `README.template.md` para `README.md`
+- Altere o `appveyor.yml` com seus **tokens** (use tokens seguros) ou use sua ferramenta de CI preferida (Circle CI, GitHub Actions, Jenkins, Team City, Azure DevOps)
+- Altere `SolutionName.sln` para o nome da sua solução/projeto.
+- Altere o nome do projeto (`SolutionName.csproj`, `SolutionName.Tests.csproj`, `SolutionName.IntegrationTests.csproj`) e o namespace dentro dos diretórios `Src` e `Tests`.
+- Altere o nome do pacote no `SolutionName.csproj`.
+- Altere a referência do *projeto principal* nos projetos de teste nos arquivos `Tests/SolutionName.Tests.csproj` e `Tests/SolutionName.IntegrationTests.csproj`
+- Corrija no `README.md` o caminho dos crachás. (substitua todos os tokens *{username}/{repo}* com seus próprios dados).
+- Adicione ao `README.md` instruções de uso do seu cliente/SDK.
+- Atualize o `_config.yml` com detalhes do projeto (site de documentação github.io)
+
+---
+
+## Licença
+
+Licenciado sob: **Licença MIT** ([LICENSE](https://github.com/guibranco/apiclient-boilerplate-dotnet/blob/main/LICENSE) ou [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT)).
+
+Esta também será a **licença** do seu wrapper de cliente API / SDK, mas você está livre para alterá-la por outra que atenda às suas necessidades.
+  
